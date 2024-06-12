@@ -1,4 +1,4 @@
-name: Code checks
+name: Format check
 
 on: [push, pull_request]
 
