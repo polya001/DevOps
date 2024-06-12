@@ -25,4 +25,4 @@ jobs:
         pip install pytest
     - name: Run tests
       run: |
-         pytest
+        /opt/hostedtoolcache/Python/3.9.19/x64/bin/pytest
