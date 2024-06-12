@@ -1,6 +1,6 @@
 import pytest
 
-from calc_functions import add, subtract, multiply, divide
+from main.calc_functions import add, subtract, multiply, divide
 
 @pytest.mark.parametrize(
     ('x','y','ans'),
