@@ -1,5 +1,5 @@
 import subprocess
-import pytest
+
 def test_code_formatting():
     with open('calc_functions.py') as file:
         code = file.read()
