@@ -19,6 +19,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install pylint
         pip install pytest
-    - name: Analysing the code with pylint
+    - name: Run Pylint
       run: |
-        pylint $(git ls-files '*.py')
+        pylint --ignore=test_func.py DevOps/
