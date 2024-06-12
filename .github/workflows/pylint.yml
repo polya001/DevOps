@@ -21,4 +21,4 @@ jobs:
         pip install pytest
     - name: Run Pylint
       run: |
-        pylint --ignore=test_func.py DevOps/
+        pylint --ignore=test_func.py
